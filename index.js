@@ -2,10 +2,10 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 // position classes
-const Employee = require('./lib/Employee');
-const Manager = require('./lib/Manager');
-const Engineer = require('./lib/Engineer');
-const Intern = require('./lib/Intern');
+const Employee = require('./p.js/employee');
+const Manager = require('./p.js/manager');
+const Engineer = require('./p.js/engineer');
+const Intern = require('./p.js/intern');
 
 // employee objects array
 const employees = [];
