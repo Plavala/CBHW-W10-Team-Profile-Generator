@@ -1,0 +1,20 @@
+// position 
+const Employee = require("./Employee");
+
+// intern script
+class Intern extends Employee {
+    constructor(name, id, email, school) {
+        super(name, id, email, 'Intern');
+        this.school = school;
+    }
+
+    getSchool() {
+        return this.school;
+    }
+
+    getRole() {
+        return "Intern";
+    }
+}
+
+module.exports = Intern;

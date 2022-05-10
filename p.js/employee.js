@@ -1,3 +1,4 @@
+// positon const script
 class Employee {
     constructor(name, id, email, role) {
         this.name = name;
